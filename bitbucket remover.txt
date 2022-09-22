@@ -1,0 +1,18 @@
+lite explorerem wyciagam z bazy passwordID (w main credentials)
+wchodze w nasze apie i uzywam funkcji "GetPasswordTextFunction"
+
+Wklejam JSON
+{
+	"Id": "tu id"
+}
+
+
+dostaje:
+"decryptedPassword": "{\"Application\":\"com.xopero.gitprotect.io\",\"ApiUrl\":\"https://api.bitbucket.org\",\"ClientConnection\":\"connection:4481545\",\"SharedSecret\":\"KTd2tvnpIBZhMEK7Fm9/1LbyV96XyOMRv7bRjyiy91s\"}"
+
+wklejam całe value
+
+------------------------------------------------------
+dump
+D:\PostgreSQL\14\bin - w tej lokalizacji CMD na prawach admina
+pg_dump -U postgres Stripe > StripeDB.sql --------pg_dump -U username baza_doskopiowania > nazwa_kopii
